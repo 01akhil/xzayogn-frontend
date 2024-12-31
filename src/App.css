@@ -1,0 +1,59 @@
+/* App.css */
+
+/* Transition classes for fade-in and fade-out effect */
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out; /* Fade-in transition */
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out; /* Fade-out transition */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Apply to the whole page */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0c1414; /* Dark teal color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+   
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:black; /* Light background for the track */
+     /* Rounded corners for the track */
+  }
+  
+  
+  

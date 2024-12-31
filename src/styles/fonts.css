@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('/src/assets/fonts/FuturaNowHeadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+  @font-face {
+    font-family: 'FuturaNowHeadlineBlack';
+    src: url('/src/assets/fonts/FuturaNowHeadlineBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FuturaNowHeadlineThin';
+    src: url('/src/assets/fonts/FuturaNowHeadlineThin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
