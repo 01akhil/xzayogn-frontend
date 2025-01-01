@@ -348,7 +348,7 @@ const Bot = () => {
     </div>
 
     {/* Main Content Area */}
-    <div className="w-full h-[100vh] flex flex-col items-center justify-center">
+    <div className="w-full h-[100vh] flex flex-col items-center justify-center overflow-hidden">
       <h1 className="text-white text-2xl fixed top-40">
 
       <HeadingWithTypingEffect
