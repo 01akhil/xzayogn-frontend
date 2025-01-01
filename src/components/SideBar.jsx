@@ -15,7 +15,7 @@ const SideBar = () => {
             <h2 className="text-md font-semibold">Chats</h2>
             <Plus />
           </div>
-          <div className="flex-1 overflow-y-auto space-y-1">
+          <div className="flex-1 overflow-y-auto space-y-1 w-[20vw]">
             {conversations.map((conversation, index) => (
               <div
                 key={index}
@@ -39,6 +39,8 @@ const SideBar = () => {
           </div>
         </div>
     </>
+
+    
   )
 }
 
