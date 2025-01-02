@@ -21,7 +21,7 @@ const location = useLocation();
         const { token } = response.data;
         localStorage.setItem('token', token);
         
-        const from=location.state?.from || '/eplore';
+        const from=location.state?.from || '/explore';
         navigate(from);
       } else {
         alert(response.data.message); 
